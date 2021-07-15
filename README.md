@@ -1,4 +1,4 @@
-- 👋 testando Oi, Sou Patrick
+-  testando Oi, Sou Patrick
 Estou a procura de um emprego 
 Atualmento estou cursando Desenvolvimento de Sistema
 Mas minhas habilidades pricncipais em trabalho são Solda e reparo no tornoO
@@ -11,6 +11,7 @@ Experiencias:
 Solda
 Idioma:
 Português
+Portifloio2b
 
 <!---
 Patrickcovre/Patrickcovre is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
