@@ -1,0 +1,23 @@
+#!/bin/bash
+info=$(ls -ld $1)
+permr=${info:1:}
+permr=${info:2:1}
+permx=${info:3:1}
+if [[ $permr == "r" ]]
+then
+echo "tem permissao para ler"
+else
+echo "sem permissao para ler"
+fi
+if [[$permw ==]]
+then
+echo "com permissao para escrever"
+else
+echo "sem permissao para escrever
+fi
+if [[ $permx == "x" ]]
+then
+echo "com permissao para executar"
+else
+echo "sem permissao para executar"
+fi
