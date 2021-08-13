@@ -1,0 +1,39 @@
+#!/bin/bash
+x=$(cut -d":" -f3 /etc/passwd)
+a=0
+touch teste2.txt
+for i in $x
+do
+if [[ $i -lt 999 || $i -gt 2000 ]]
+then
+var=$(grep $i /etc/passwd)
+echo $var > listausers.txt
+cut=$(cut -d":" -f1 teste2.txt)
+echo $cut
+fi
+done
+rm -rf teste2.txt
+~
+#!/bin/bash
+info=$(ls -ld $1)
+permr=${info:1:}
+permr=${info:2:1}
+permx=${info:3:1}
+if [[ $permr == "r" ]]
+then
+echo "tem permissao para ler"
+else
+echo "sem permissao para ler"
+fi
+if [[$permw ==]]
+then
+echo "com permissao para escrever"
+else
+echo "sem permissao para escrever
+fi
+if [[ $permx == "x" ]]
+then
+echo "com permissao para executar"
+else
+echo "sem permissao para executar"
+fi
