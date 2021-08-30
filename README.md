@@ -1,6 +1,6 @@
 # Portifolio 2 trimestre
 ## Fundamentos t.i
-[Exemplos_script_1](Patrickcovre/fundamentosti/avaliaçaopratica)
+[Exemplos_script_1](fundamentosti/avaliaçaopratica)
 
 
 [Exemplos_script_2](/avaliacao13)
