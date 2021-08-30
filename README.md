@@ -1,11 +1,16 @@
 # Portifolio 2 trimestre
 ## Fundamentos t.i
 [Exemplos_script_1](Patrickcovre/fundamentosti/avaliaçaopratica)
+
+
 [Exemplos_script_2](/avaliacao13)
 
 
+
+[Exemplos_script_3](/provati.sh)
 ## Lógica Computacional
 [Exemplos_script_1](logicacomputacional/exmplos.java)
+
 
 
 # Sobre Mim
