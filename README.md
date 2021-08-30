@@ -5,7 +5,7 @@
 
 
 ## Lógica Computacional
-
+[Exemplos_script_1](Patrickcovre/logicacomputacional/exmplos.java)
 
 
 # Sobre Mim
