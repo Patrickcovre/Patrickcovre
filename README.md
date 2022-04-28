@@ -15,6 +15,8 @@
 
 [Exemplos_script_2](/portifolio2b.java)
 
+# Portifolio 3 trimestre :C :D
+
 # Banco de Dados
 
 [Atividade função](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20funções.sql)
