@@ -1,0 +1,272 @@
+public class Cartao{
+  private int id;
+  private String cpfPessoa;
+  private int idadePessoa;
+  private String validadecartao;
+  private String nomePessoa;
+  private boolean pagoucartao;
+  
+}
+
+public Cartao(int id, String cpfPessoa, int idadePessoa, String validadecartao, String nomePessoa, boolean pagoucartao){
+  this.id = id;
+  this.cpfPessoa = cpfPessoa;
+  this.idadePessoa = idadePessoa;
+  this.validadecartao = validadecartao;
+  this.nomePessoa = nomePessoa;
+  this.pagoucartao = pagoucartao;
+  }
+
+public boolean pagoucartao(){
+  return true;
+}
+
+public class Empresa{
+  private String cnpj;
+  private String local;
+  private Boolean seguradora;
+  private Onibus onibus;
+  private String contato;
+  }
+public empresa(String cnpj, String local, Boolean seguradora,Onibus onibus, String contato){
+  this.cnpj = cnpj;
+  this.local = local;
+  this.seguradora = seguradora;
+  this.onibus = onibus;
+  this.contato = contato;
+ }
+public class Funcionario{
+  private String cargo;
+  private int cargaHoraria;
+  private boolean bateuPonto;
+  private String pis;
+  private float salario;
+  private float valeTransporte;
+  private float valeAlimentacao;
+}
+  
+public Funcionario(String nome, String cpf, String dataNascimento, String contato, String genero, String endereco, String cargo, int cargaHoraria, boolean bateuPonto, String pis, float salario, float valeTransporte, float valeAlimentacao){
+
+  super(nome, cpf, dataNascimento, contato, genero, endereco)
+  this.cargo = cargo;
+  this.cargaHoraria = cargaHoraria;
+  this.bateuPonto = bateuPonto;
+  this.pis = pis;
+  this.salario = salario;
+  this.valeTransporte = valeTransporte;
+  this.valeAlimentacao = valeAlimentacao;
+    
+  }
+
+  public boolean baterPonto(){
+     return true;
+     
+   }
+
+  public boolean aumentarSalario(float, String, int){
+      return true;
+      
+    }
+
+  public boolean aumentarSalario(float, String){
+     return true;
+     
+   }
+
+  public boolean receberSalario(){
+     return true;
+     
+   }
+
+  public boolean receberVale(String){
+     return true;
+     
+   }
+
+  public boolean tirarFerias(String){
+     return true;
+     
+   }
+
+  public void trabalhar(){
+     return true;
+     
+   }
+
+  public int fazerHoraExtra(){
+     return true;
+     
+   }
+
+
+   
+
+  public void serDemitido(String, String){
+     return true;
+     
+   }
+
+  public void pedirDemissao(String, String, String){
+     return true;
+     
+   }
+  
+import com.oracle.truffle.api.object.HiddenKey;
+
+public class Linhas {
+  private String horario;
+   private String pontodesaida;
+   private String pontodechegada;
+   private String motorista;
+   private String destino;
+  
+}
+public Linhas(String horario, String pontodesaida, String pontodechegada, String motorista, String destino){
+  this.horario = horario;
+  this.pontodesaida = pontodesaida;
+  this.pontodechegada = pontodechegada;
+  this.motorista = motorista;
+  this.destino = destino;
+}public class Onibus{
+  private boolean niveldocombustivel;
+  private int quantidadeDonibuscirculando;
+  private int lotação;
+  private boolean revisão;
+  private String ultimarevisão;
+  private boolean articulado;
+}
+
+public Onibus (boolean niveldocombustivel, int quantidadeDonibuscirculando ,int lotação,boolean revisão,String ultimarevisão ,boolean articulado){
+  
+  this.niveldocombustivel = niveldocombustivel;
+  this.quantidadeDonibuscirculando = quantidadeDonibuscirculando;
+  this.lotação = lotação;
+  this.revisão = revisão;
+  this.ultimarevisão = ultimarevisão;
+  this.articulado = articulado;
+
+  }
+
+public boolean niveldocombustivel(float){
+  return true;
+}
+
+public boolean estafuncionando(){
+  return true;
+}
+
+public class Operador{
+  private String cargahoraria;
+  private String pontodepartida;
+  private String pontodesaida;
+  private ArrayList<String> rota ;
+  }
+public Operador(String cargahoraria, String pontodepartida, String pontodesaida){
+  this.cargahoraria = cargahoraria;
+  this.pontodepartida = pontodepartida;
+  this.pontodesaida = pontosaida;
+  }
+
+public boolean andarcomaportaaberta(){
+  return false;
+  }
+
+public void dirigir (){
+  return true;
+  
+  }
+
+public boolean ajudarcadeiranteasubiroudescer(){
+  return true;
+
+  }
+
+
+public boolean calibrarospneus(){
+  return true;
+
+  }
+import java.util.ArrayList;
+public class Passageiro{
+  private Pessoa pessoa;
+  private boolean temcartao;
+  private ArrayList<String> linhamaisusada;
+  private String pontodepartida;
+  private String destino;
+  private boolean serestudante;
+  private boolean seridoso;
+}
+
+public Passageiro (Pessoa pessoa,boolean temcartao,String pontodepartida,String destino,boolean serestudante,boolean seridoso){
+  this.pessoa = pessoa;
+  this.temcartao = temcartao;
+  this.pontodepartida = pontodepartida;
+  this.destino = destino;
+  this.serestudante = serestudante;
+  this.seridoso = seridoso;
+}
+
+public void comprarpasse(float){
+  return true;
+}
+
+public boolean escolherondesentar(){
+  return true;
+}
+public boolean temlugarparasentar(){
+  return true;
+}
+
+public boolean paradepoisouantesdoseudestino(){
+  return true;
+  }
+public class Pessoa{
+  private String nome;
+  private String cpf;
+  private String dataNascimento;
+  private String dataNascimento;
+  private String genero;
+  private String endereco;
+}
+
+public Pessoa(String nome, String cpf, String dataNascimento, String contato, String genero, String endereco){
+
+  this.nome = nome;
+  this.cpf = cpf;
+  this.dataNascimento = dataNascimento;
+  this.contato = contato;
+  this.genero = genero;
+  this.endereco = endereco;
+  this.funcionario = funcionario;
+    
+  }
+
+  public void registrar(String, String, String, String, String){
+     return true;
+     
+   }
+
+  public boolean verificaPresenca(String, String){
+      return true;
+      
+    }public class Terminais{
+  private String nome;
+  private String horario;
+  private String valor;
+  private Boolean lojas;
+  private String local;
+  private int capacidadedeonibus;
+}
+public Terminais(String nome,String horario,String valor ,String local, int capacidadedeonibus){
+  
+  this.nome = nome;
+  this.horario = horario;
+  this.valor = valor;
+  this.local = local;
+  this.capacidadedeonibus = capacidadedeonibus;
+  
+}
+
+public void Passagem(float){
+  return true;
+}
