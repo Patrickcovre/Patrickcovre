@@ -19,7 +19,7 @@
 
 [Atividade função](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20funções.sql)
 
-
+[Fixação de funções](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20de%20fixação%20Funções)
 
 
 # Sobre Mim
