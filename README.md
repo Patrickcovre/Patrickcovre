@@ -15,6 +15,9 @@
 
 [Exemplos_script_2](/portifolio2b.java)
 
+##Banco de Dados
+[Atividade função](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20funções.sql)
+
 
 
 [Exemplos_script_3](/portifolio2b)
