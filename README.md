@@ -11,17 +11,16 @@
 ## Lógica Computacional
 [Exemplos_script_1](logicacomputacional/exmplos.java)
 
-
+[Exemplos_script_3](/portifolio2b)
 
 [Exemplos_script_2](/portifolio2b.java)
 
-##Banco de Dados
+# Banco de Dados
 
 [Atividade função](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20funções.sql)
 
 
 
-[Exemplos_script_3](/portifolio2b)
 
 # Sobre Mim
 
