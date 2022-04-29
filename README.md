@@ -34,7 +34,7 @@
 
 [Geoespacial](https://github.com/Patrickcovre/Patrickcovre/blob/main/Programção%20de%20aplicativo/Geoespacial)
 
-[Tela do celular](https://github.com/Patrickcovre/Patrickcovre/new/main)
+[Tela do celular](https://docs.google.com/document/d/13KP7L24ZLL4GnggWlBgeC5yR8HOVxHEmUmh0TzXy_7g/edit?usp=sharing)
 
 
 
