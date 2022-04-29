@@ -17,6 +17,7 @@
 
 # Portifolio 3 trimestre :C :D
 
+
 # Banco de Dados
 
 [Atividade função](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20funções.sql)
@@ -32,6 +33,7 @@
 # Programação de Aplicativos
 
 [Geoespacial](https://github.com/Patrickcovre/Patrickcovre/blob/main/Programção%20de%20aplicativo/Geoespacial)
+
 [Tela do celular](https://github.com/Patrickcovre/Patrickcovre/new/main)
 
 
