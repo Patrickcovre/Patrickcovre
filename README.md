@@ -18,6 +18,7 @@
 # Portifolio 3 trimestre :C :D
 
 # Curriculo 
+[Curriculo](https://github.com/Patrickcovre/Patrickcovre/blob/main/Curriculo/fotc.png)
 
 
 # Banco de Dados
