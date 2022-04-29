@@ -17,6 +17,8 @@
 
 # Portifolio 3 trimestre :C :D
 
+# Curriculo 
+
 
 # Banco de Dados
 
@@ -40,7 +42,7 @@
 
 
 
-# Sobre Mim
+# Sobre Mim(2022)
 
 
 testando Oi, Sou Patrick
