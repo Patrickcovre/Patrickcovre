@@ -9,8 +9,11 @@ Gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo 
 -Curso: Analisa de Desenvolvimento de Sistema(Tecnico)
 
 Idioma:
+
 -Português
+
 -Ingles
+
 -Espnaho(Consigo entender oq ta escrito, mas não consigo falar)
 
 - 🔭 Atualmente estou trabalhando na palhoça na empresa JCR faço soldas em geral.
