@@ -1,3 +1,10 @@
+- 🔭 Atualmente estou trabalhando na palhoça na empresa JCR faço soldas em geral.
+- 🌱 Atualmente estou aprendendo Banco de Dados, Modelagem de Sistemas e Programação de Aplicativos.
+- 🤔 Estou procurando um estagio na area de programação.
+- 📫 Como entrar em contato comigo:Patrickcovrerodrigues@gmail.com
+- ⚡ Curiosidade: Sou um otimo jogador de futebol e ja paguei top 100 melhores jogadores de legue of legends(Uns dos jogos mais jogado do mundo) no brasil de Karthus.
+
+
 # Portifolio 2 trimestre
 ## Fundamentos t.i
 [Exemplos_script_1](fundamentosti/avaliaçaopratica)
