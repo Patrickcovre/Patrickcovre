@@ -15,7 +15,7 @@
 
 [Exemplos_script_2](/portifolio2b.java)
 
-# Portifolio 3 trimestre :C :D
+# Portifolio 1 trimestre
 
 # Curriculo 
 [Curriculo](https://github.com/Patrickcovre/Patrickcovre/blob/main/Curriculo/fotc.png)
