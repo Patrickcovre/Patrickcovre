@@ -65,3 +65,6 @@ Ingles
 
 Espnaho(Consigo entender oq ta escrito, mas não consigo falar)
 
+E-mail Pessoa: Patrickcovrerodrigues@gmail.com
+Contato:Patrickcovrerodrigues@gmail.com
+
