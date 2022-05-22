@@ -51,12 +51,12 @@ restauracoes varchar,
 cod_funcionario varchar references funcionarios (pis) 
 ); 
 importações: 
-\copy contas from ‘C:\Users\alice_k_alves\Downloads\contas.csv’ delimiter ‘;’ csv header; 
-\copy bilheteria from ‘C:\Users\alice_k_alves\Downloads\bilheteria.csv’ delimiter ‘;’ csv header; 
-\copy cadastro from ‘C:\Users\alice_k_alves\Downloads\cadastro.csv’ delimiter ‘;’ csv header; 
-\copy funcionarios from ‘C:\Users\alice_k_alves\Downloads\funcionarios.csv’ delimiter ‘;’ csv header; 
-\copy lojas_parceiras from ‘C:\Users\alice_k_alves\Downloads\lojas_parceiras.csv’ delimiter ‘;’ csv header; 
-\copy obras from ‘C:\Users\alice_k_alves\Downloads\obras.csv’ delimiter ‘;’ csv header; 
+\copy contas from ‘C:\Users\Patrick_c_r\Downloads\contas.csv’ delimiter ‘;’ csv header; 
+\copy bilheteria from ‘C:\Users\Patrick_c_r\Downloads\bilheteria.csv’ delimiter ‘;’ csv header; 
+\copy cadastro from ‘C:\Users\Patrick_c_r\Downloads\cadastro.csv’ delimiter ‘;’ csv header; 
+\copy funcionarios from ‘C:\Users\Patrick_c_r\Downloads\funcionarios.csv’ delimiter ‘;’ csv header; 
+\copy lojas_parceiras from ‘C:\Users\Patrick_c_r\Downloads\lojas_parceiras.csv’ delimiter ‘;’ csv header; 
+\copy obras from ‘C:\Users\Patrick_c_r\Downloads\obras.csv’ delimiter ‘;’ csv header; 
 visualizações e exportações úteis: 
 \copy ( select * from cadastro where idade >= 18 ) to 
 'C:\Users\alice_k_alves\Downloads\menores_de_18.csv' delimiter ';' csv header; // para visualizar os cadastros em que a pessoa possui 18 ou mais anos.
