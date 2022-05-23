@@ -21,7 +21,8 @@ Idioma:
 - 🤔 Estou procurando um estagio na area de programação.
 - 📫 Como entrar em contato comigo:Patrickcovrerodrigues@gmail.com
 - ⚡ Curiosidade: Sou um otimo jogador de futebol e ja paguei top 100 melhores jogadores de legue of legends(Uns dos jogos mais jogado do mundo) no brasil de Karthus.
-
+- 🏠 Moro na Palhoça (SC).
+- 👨‍🎓 Estudo no Senai de São José (SC).
 
 # Portifolio 2 trimestre
 ## Fundamentos t.i
