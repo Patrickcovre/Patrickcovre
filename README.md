@@ -4,10 +4,10 @@
 Oi, Sou Patrick
 Gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo de crescer profissionalmente e de maneira produtiva, além de contribuir para o desenvolvimento da organização como um todo. Estou a procura de um estagio de desenvolvimento de sistema para obter mais conhecimento e melhorar constantemente para esse mercado de trabalho.
 
-Atualmente estou cursando Desenvolvimento de Sistema, estou desenvolvendo aplicativos no android studio(Programação de Aplicativos), Banco de Dados e modelagem de Sistemas(diagrams Er e uml)
+Atualmente estou cursando Desenvolvimento de Sistema, estou desenvolvendo aplicativos no android studio(Programação de Aplicativos), Banco de Dados e modelagem de Sistemas(diagrams Er e uml).
 
 Curso: 
-- Analisa de Desenvolvimento de Sistema(Tecnico)
+- Analisa de Desenvolvimento de Sistema(Tecnico).
 
 Idioma:
 
