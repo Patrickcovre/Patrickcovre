@@ -1,20 +1,21 @@
 # Sobre Mim
 
 
--Oi, Sou Patrick
+Oi, Sou Patrick
 Gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo de crescer profissionalmente e de maneira produtiva, além de contribuir para o desenvolvimento da organização como um todo. Estou a procura de um estagio de desenvolvimento de sistema para obter mais conhecimento e melhorar constantemente para esse mercado de trabalho.
 
--Atualmento estou cursando Desenvolvimento de Sistema, estou desenvolvendo aplicativos no android studio(Programação de Aplicativos), Banco de Dados e modelagem de Sistemas(diagrams Er e uml)
+Atualmente estou cursando Desenvolvimento de Sistema, estou desenvolvendo aplicativos no android studio(Programação de Aplicativos), Banco de Dados e modelagem de Sistemas(diagrams Er e uml)
 
--Curso: Analisa de Desenvolvimento de Sistema(Tecnico)
+Curso: 
+- Analisa de Desenvolvimento de Sistema(Tecnico)
 
 Idioma:
 
--Inglês Intermediário, por cursos e aplicativos na internet, fora a base escolar.
+- Inglês Intermediário, por cursos e aplicativos na internet, fora a base escolar.
 
--Base em Espanhol, estudada por três anos, do 6º ao 8º do Ensino Fundamental.
+- Base em Espanhol, estudada por três anos, do 6º ao 8º do Ensino Fundamental.
 
--Grande dominação da Língua Portuguesa, tendo familiaridade com regras de escrita (como vírgula, crase etc).
+- Grande dominação da Língua Portuguesa, tendo familiaridade com regras de escrita (como vírgula, crase etc).
 
 - 🔭 Atualmente estou trabalhando na palhoça na empresa JCR faço soldas em geral.
 - 🌱 Atualmente estou aprendendo Banco de Dados, Modelagem de Sistemas e Programação de Aplicativos.
