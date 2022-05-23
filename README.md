@@ -43,7 +43,7 @@ Idioma:
          
          
 
-# Portifolio 2 trimestre
+# Portifolio Primeiro Ano
 ## Fundamentos t.i
 [Exemplos_script_1](fundamentosti/avaliaçaopratica)
 
@@ -60,7 +60,7 @@ Idioma:
 
 [Exemplos_script_2](/portifolio2b.java)
 
-# Portifolio 1 trimestre
+# Portifolio Segundo Ano 
 
 # Curriculo 
 [Curriculo](https://github.com/Patrickcovre/Patrickcovre/blob/main/Curriculo/fotc.png)
