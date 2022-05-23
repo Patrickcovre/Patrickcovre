@@ -10,11 +10,9 @@ Gostaria de fazer parte da equipe de funcionários da empresa, tendo o objetivo 
 
 Idioma:
 
--Português
-
--Ingles
-
--Espnaho(Consigo entender oq ta escrito, mas não consigo falar)
+Inglês Intermediário, por cursos e aplicativos na internet, fora a base escolar.
+Base em Espanhol, estudada por três anos, do 6º ao 8º do Ensino Fundamental.
+Grande dominação da Língua Portuguesa, tendo familiaridade com regras de escrita (como vírgula, crase etc).
 
 - 🔭 Atualmente estou trabalhando na palhoça na empresa JCR faço soldas em geral.
 - 🌱 Atualmente estou aprendendo Banco de Dados, Modelagem de Sistemas e Programação de Aplicativos.
