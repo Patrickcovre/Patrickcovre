@@ -25,7 +25,7 @@ Idioma:
 - 👨‍🎓 Estudo no Senai de São José (SC).
 
 ### Ferramentas e Tecnologias
-<img src="link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"width="40" height="40"/>
+<img src=<"link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">width="40" height="40"/>
 
 # Portifolio 2 trimestre
 ## Fundamentos t.i
