@@ -97,7 +97,7 @@ Idioma:
 
 # Programação de Aplicativos
   
-[Teste SA (ainda nao terminei)](https://github.com/Patrickcovre/Patrickcovre/tree/main/Teste%20SA%20)
+[Teste SA (ainda nao terminei)](https://github.com/Patrickcovre/Patrickcovre/blob/main/Teste%20SA%20(ainda%20nao%20terminei)/Codigo)
 
 [Geoespacial](https://github.com/Patrickcovre/Patrickcovre/blob/main/Programção%20de%20aplicativo/Geoespacial)
 
