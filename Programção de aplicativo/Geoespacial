@@ -1,1 +1,191 @@
-https://drive.google.com/file/d/16RvO4BaQ2jWyKfsv8bd8NuiI91OP-0RP/view
+package com.example.geoespacial;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.RadioButton;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+    RadioButton at,aba,nl,af,v,h,abv;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        at = findViewById(R.id.at);
+        aba = findViewById(R.id.aba);
+        af = findViewById(R.id.af);
+        v = findViewById(R.id.v);
+        h = findViewById(R.id.h);
+        abv = findViewById(R.id.abv);
+        nl = findViewById(R.id.nl);
+    }
+    public void click(View c){
+        Intent i = new Intent(this, telacalcula.class);
+        if(at.isChecked()) {
+            telacalcula.formula = 1;
+            startActivity(i);
+
+        }
+        else if(aba.isChecked()) {
+            telacalcula.formula =2;
+            startActivity(i);
+
+        }
+        else if(nl.isChecked()) {
+            telacalcula.formula =3;
+            startActivity(i);
+
+        }
+        else if(af.isChecked()){
+            telacalcula.formula =4;
+            startActivity(i);
+
+        }
+        else if(v.isChecked()) {
+            telacalcula.formula =5;
+            startActivity(i);
+
+        }
+        else if(h.isChecked()) {
+            telacalcula.formula =6;
+            startActivity(i);
+
+        }
+        else if(abv.isChecked()) {
+            telacalcula.formula =7;
+            startActivity(i);
+
+        }
+        else{
+            Toast.makeText(this,"Voce precisa selocionar um botão", Toast.LENGTH_LONG).show();
+
+        }
+    }
+
+}
+
+Tela calcula
+
+package com.example.geoespacial;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class telacalcula extends AppCompatActivity {
+    static int formula;
+    EditText name2, name3, name4;
+    TextView r;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_telacalcula);
+        getSupportActionBar().hide();
+        name2 = findViewById(R.id.name2);
+        name3 = findViewById(R.id.name3);
+        name4 = findViewById(R.id.name4);
+        r = findViewById(R.id.resultado);
+        organizaTela();
+
+
+
+    }
+
+    private void organizaTela() {
+        if (formula ==1){
+            name2.setHint("Digite a area da Base");
+            name3.setHint("Digite o numero de lados");
+            name4.setHint("Digite a area da face lateral");
+
+        }
+        else if(formula == 7) {
+            name2.setHint("Volume");
+            name3.setHint("Digite a area da base");
+            name4.setVisibility(View.INVISIBLE);
+
+        }
+        else if(formula == 2) {
+            name2.setHint("Area total");
+            name3.setHint("numero da face laterais");
+            name4.setHint("Area de faces laterais");
+        }
+
+        else if(formula == 3) {
+            name2.setHint("Volume");
+            name3.setHint("altura");
+            name4.setVisibility(View.INVISIBLE);
+        }
+        else if(formula == 4) {
+            name2.setHint("Area total");
+            name3.setHint("area da base");
+            name4.setHint("Area da face lateral");
+        }
+        else if(formula == 5){
+            name2.setHint("Area total");
+            name3.setHint("area da base");
+            name4.setHint("numero de face laterais");
+        }
+        else if(formula == 6) {
+            name2.setHint("digite area da base");
+            name3.setHint("Digite a altura");
+            name4.setVisibility(View.INVISIBLE);
+        }
+    }
+    public void button2(View view){
+        double conta;
+        double a = Double.parseDouble(name2.getText().toString());
+        double b = Double.parseDouble(name3.getText().toString());
+
+        switch (formula){
+            case 1:
+                double c = Double.parseDouble(name4.getText().toString());
+                conta = 2*a + b*c;
+                r.setText(conta+"");
+                break;
+
+            case 2:  double d = Double.parseDouble(name4.getText().toString());
+                conta = (a - b*d)/2;
+                r.setText(conta+"");
+                break;
+
+            case 4:   double e = Double.parseDouble(name4.getText().toString());
+                conta = (a - 2*a)/e;
+                r.setText(conta+"");
+                break;
+
+            case 5:   double f = Double.parseDouble(name4.getText().toString());
+                conta = (a - 2*b)/f;
+                r.setText(conta+"");
+                break;
+
+            case 6:
+                conta = a*b;
+                r.setText(conta+"");
+                break;
+
+            case 7:
+                conta = a/b;
+                r.setText(conta+"");
+                break;
+
+            case 3:
+                conta = a/b;
+                r.setText(conta+"");
+                break;
+
+
+
+
+
+        }
+
+    }
+}
