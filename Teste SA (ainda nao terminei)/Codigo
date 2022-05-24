@@ -1,0 +1,164 @@
+Tela de login
+package com.example.arcal;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.telephony.ClosedSubscriberGroupInfo;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+
+public class MainActivity extends AppCompatActivity {
+    EditText campo, senha;
+    TextView exibe;
+    ArrayList<Usuario> usu = new ArrayList<>();
+    Usuario encontrado;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
+        campo = findViewById(R.id.login);
+        exibe = findViewById(R.id.t);
+        senha = findViewById(R.id.senha);
+        Usuario u = new Usuario("thomas@gmail.com", "Patrick25", 1);
+//        Usuario u2 =
+        usu.add(u);
+//        usu.add(u2);
+
+
+    }
+
+    public void clica(View c) {
+        if (verificaUsuario(campo.getText().toString(), senha.getText().toString())) {
+            String Texto = campo.getText().toString();
+            Toast.makeText(this, "Bem vindo, thomas" + Texto, Toast.LENGTH_SHORT).show();
+            exibe.setText(Texto);
+            campo.setText(null);
+            if (encontrado.perfil == 1) {
+                mudaTela();
+            } else if (encontrado.perfil == 2){
+                Tela_Admin.list = usu;
+
+                //mudatelaadm();
+            }
+
+        }
+     else
+
+    {
+
+        Toast.makeText(this, "Usuario ou senha invalida", Toast.LENGTH_SHORT).show();
+
+    }
+
+}
+
+
+    public void mudatelaadm(View v){
+        Intent o = new Intent(this, Tela_Admin.class);
+        startActivity(o);
+
+    }
+    public void mudaTela(){
+        Intent i = new Intent(this, tela1.class);
+        startActivity(i);
+    }
+
+    public boolean verificaUsuario(String login, String senha) {
+        for (Usuario pessoa : usu) {
+            if (login.equals(pessoa.login) && senha.equals(pessoa.senha)) {
+        encontrado = pessoa;
+
+                return true;
+
+            }
+        }
+    return false;
+    }
+}
+Tela1
+package com.example.arcal;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.Button;
+
+public class tela1 extends AppCompatActivity {
+    Button iniciar;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_tela1);
+        getSupportActionBar().hide();
+        iniciar = findViewById(R.id.iniciar);
+
+
+
+
+    }
+}
+Tela adm
+package com.example.arcal;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+
+public class Tela_Admin extends AppCompatActivity {
+    EditText login, senha;
+    static ArrayList<Usuario> list;
+    @Override
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_tela_admin);
+        getSupportActionBar().hide();
+        login = findViewById(R.id.nulogin);
+        senha = findViewById(R.id.nusenha);
+
+    }
+    public void cadastrar(View c){
+        String l = login.getText().toString();
+        String s = senha.getText().toString();
+
+            Usuario u = new Usuario(l,s, 2);
+            list.add(u);
+        }
+
+
+    }
+    Usuario
+    package com.example.arcal;
+
+public class Usuario {
+    String login, senha;
+    int perfil;
+
+
+    public Usuario(String login, String senha) {
+        this.login = login;
+        this.senha = senha;
+    }
+
+    public Usuario(String login, String senha, int perfil) {
+        this.login = login;
+        this.senha = senha;
+        this.perfil = perfil;
+    }
+}
