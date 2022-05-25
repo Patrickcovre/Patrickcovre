@@ -85,25 +85,20 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 Tela1
-package com.example.arcal;
-
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Bundle;
-import android.widget.Button;
-
 public class tela1 extends AppCompatActivity {
     Button iniciar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela1);
         getSupportActionBar().hide();
         iniciar = findViewById(R.id.iniciar);
+    }
 
-
-
-
+    public void iniciar(View v) {
+        Intent i = new Intent(this, Pergunta1.class);
+        startActivity(i);
     }
 }
 Tela adm
@@ -177,5 +172,49 @@ public class Pergunta1 extends AppCompatActivity {
     public void proximo(View v) {
         Intent i = new Intent(this, Pergunta2.class);
         startActivity(i);
+    }
+}
+
+pergunta 2 
+public class Pergunta2 extends AppCompatActivity {
+    Button button;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pergunta2);
+        getSupportActionBar().hide();
+        button = findViewById(R.id.button);
+    }
+
+    public void button(View v) {
+        Intent i = new Intent(this, pergunta3.class);
+        startActivity(i);
+    }
+}
+pergunta 3
+public class pergunta3 extends AppCompatActivity {
+    Button button2;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pergunta3);
+        getSupportActionBar().hide();
+        button2 = findViewById(R.id.button2);
+    }
+
+    public void button2(View v) {
+        Intent i = new Intent(this, pergunta4.class);
+        startActivity(i);
+    }
+}
+pergunta 4
+public class pergunta4 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pergunta4);
     }
 }
