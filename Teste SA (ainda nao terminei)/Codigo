@@ -162,3 +162,20 @@ public class Usuario {
         this.perfil = perfil;
     }
 }
+
+pergunta 1 
+public class Pergunta1 extends AppCompatActivity {
+    Button proximo;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_pergunta1);
+        getSupportActionBar().hide();
+        proximo = findViewById(R.id.proximo);
+
+    }
+    public void proximo(View v) {
+        Intent i = new Intent(this, Pergunta2.class);
+        startActivity(i);
+    }
+}
