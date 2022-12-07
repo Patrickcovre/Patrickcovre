@@ -73,7 +73,7 @@ Idioma:
 
 [Exemplos_script_2](/portifolio2b.java)
 
-# Portifolio Segundo Ano 
+# Portifolio Segundo  e Terceiro Ano 
 
 # Curriculo 
 [Curriculo](https://github.com/Patrickcovre/Patrickcovre/blob/main/Curriculo/fotc.png)
