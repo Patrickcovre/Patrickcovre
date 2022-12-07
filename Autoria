@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <a class="TT" href="#">Portfólio
+        </a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trabalhos</a></li>
+            <li><a href="#">Contato</a></li>
+
+        </ul>
+    </header>
+    <section>
+        <img src="/img/stars.png" id="stars">
+        <img src="/img/moon.png" id="moon">
+        <img src="/img/mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Moon Ligh</h2>
+        <a href="#sec" id="btn">Explore</a>
+        <img src="img/mountains_front.png" id="mountains_front">
+    </section>
+    <div class="sec" id="sec">
+        <h2>Quem sou EU?</h2>
+        <p>Me chamo Patrick Covre Rodrigues nasci em tubarão - Santa catarina e morei la por 14anos porque meus pais
+            abriram
+            uma empresa na palhoça e me mudei para esse lugar(ainda bem florianopolis é melhor que ficar em
+            tubarao),nunca fui
+            muito inteligente,mas tambem nunca fui preguiçoso acho que é o unico DOM nunca fico cansado, quadno eu era
+            criança eu queria ser piloto de formula 1 ou jogador de futebol, mas ao longo da minha vida eu fui mundando
+            e os pensamentos tam bem, agora eu pretendo trabalhar como programador ou ser da Policia rodoviaria federal.
+            <br><br>
+            com 14 anos comecei a trabalhar com meu pai, ele me ensinou a soldar e tornear, todo dia depois da escola eu
+            ia
+            trabalhar com ele, cada vez mais me aperfeiçoando com 15 anos comecei fazer algumas coisas sozinho no
+            trabalh do meu pai e meu pai viu que eu ajudava bastante na empresa e começou a me pagar um salario
+            <br><br>
+            no meu futuro quero conhecer muitos paises ter um emprego bom uma familia e continuar tendo contatos com
+            meus amigos
+            do BECO, bom se eu me aposentar rico quero morar em alguma ilha com minha esposa uma casa branca e dois
+            cachorros.
+            <br><br>
+            No meu passa tempo geralmento eu fico jogando ou vendo filme, mas oque eu gosto de fazer quando estou livre
+            e sair com meus amigos ou jogar um fut.
+        </p>
+        <br><br><br><br>
+        <h2>Curriculo</h2>
+        <video class="videozapz" controls>
+            <source class="videozapz" src="/video/WhatsApp Video 2022-12-02 at 16.30.59.mp4" type="video/mp4">
+        </video>
+
+        <br><br><br><br>
+        <h2>Meus projetos durantes esses 3 anos com vocês!</h2>
+        <p>
+            Começando por ciências da natureza essa atividade foi realizada no dia 1 de outrubro de 2021 organizada
+            pela
+            professora alessandra, Tinha que realizar
+            simulação do Mouse Party (Mouse Party é um jogo interativo para estudar o cérebro sob a influência de
+            drogas. Este jogo interativo permite ver no cérebro de ratos sob a influência de diferentes drogas.) era
+            para criar uma apresentação com animações (powtoon) sobre um tipo de
+            droga contendo os seguintes itens:<br>
+        <ul></ul>
+        <li>Tipo (natural, sintética, semi sintética)</li>
+        <li>Efeito (depressora, estimulante, perturbadoras)</li>
+        <li>Legalidade
+            Informações adicionais como por exemplo regiões onde são mais utilizadas, quantidade de consumo (mundo x
+            Brasil)</li>
+        </ul>
+        </p>
+        <video controls>
+            <source src="/video/2021-10-14 22-40-33.mp4" type="video/mp4">
+        </video>
+        <br><br><br><br>
+        <h2>Autoria</h2>
+        <p>Mapa mental sobre o magnetismo</p>
+        <img class="autorianatureza" src="/img/magnetismo.jpg">
+        <br><br><br>
+        <h2>Ciências Humanas</h2>
+        <p> Produzir um tweet de Napoleão em que ele anuncie para a população francesa o evento pintado por
+            Jacques-Louis David.</p>
+        <img class="napoleao" src="/img/napoleão.jpg">
+        <br><br><br>
+        <h2>Autoria</h2>
+        <p>Projeto do Mundo Senai</p>
+        <img class="cartografia" src="/img/cartografia.jpg">
+        <br><br><br>
+        <h2>Linguagens</h2>
+        <p>Nesse trabalho eu tive que fazer uma HQ mostrando meu dia a dia durante a quarentena.</p>
+        <img class="trabalhoquarentena" src="/img/trabalho.png" alt="">
+        <br><br><br>
+        <h2>Autoria</h2>
+        <p>Projeto do Mundo Senai</p>
+        <img class="high" src="/img/high.jpg" alt="">
+        <br><br><br>
+        <h2>Matemática</h2>
+        <p>Bem estar digital</p>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+            <iframe loading="lazy"
+                style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFO6znearo&#x2F;view?embed"
+                allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+        </div>
+        <br><br><br>
+        <h2>Autoria</h2>
+        <p>mapa mental moda, media e mediana</p>
+        <img class="mapamentalmtm" src="/img/mapamentalmtm.png" alt="">
+        <br><br><br>
+        <h2>Desenvolvimento de sistema(T.I)</h2>
+        <p>Meu primeiro app</p>
+        <img class="telacelular" src="/img/primeiropro.png" alt="">
+        <br><br><br>
+        <h2>Autoria</h2>
+        <p>Minha autoria foi esse site(Moon Ligh) que eu fiz para apresentar meu portfólio
+            para vocês</p>
+        <img class="cod" src="/img/cod.png" alt="">
+        <img class="red" src="/img/red.png" alt="">
+        <br><br><br>
+        <h2>Ferramentas utilizadas para o portfólio
+        </h2>
+        <div class="ferramentas">
+            <img src="img/Github_Header-removebg-preview.png" style="position: relative;">
+            <img src="/img/vscode-removebg-preview.png" alt="">
+        </div>
+        <br><br><br>
+        <h2>Linguagens de programação utilizadas</h2>
+        <div class="html">
+            <img src="/img/js.png" alt="">
+            <img src="/img/html.png" alt="">
+        </div>
+        <br><br><br>
+        <h2>Considerações finais</h2>
+        <br><br>
+        <h2>Falando sobre meus pais</h2>
+        <p>Bom começando pelas pessoas que eu amo quero agradecer aos meus pais e minha mae que me incentivava a
+            aprender a programar, por causa deles estou conseguindo estudar em uma escola particular tecnica que me
+            ensina programação mesmo que nao tenha aprendido muito sobre java bando de dados etc, mas por causa disso me
+            deu vontade de aprender a programar e fui atras de aprender javascript, html e css.</p>
+        <br><br>
+        <h2>Escola</h2>
+        <p>Quero agradecer todos os professores ques estão aqui e aos que não estão mais, mas quero agradecer mas aos
+            professores de T.i por ter dado uma base sobre oque é a programação concerteza esse foi uns dos diversos
+            incentivos que eu tive para aprender essa area de programação.</p>
+        <br><br>
+        <h2>BESTIES</h2>
+        <p>Eu achava que antes de entrar no senai eu tinha amigos, mas não é verdade eram apenas colegas por causa
+            desses tres anos aqui no colegio eu aprendi oque é ter amigos espero que a gente sempre seja amigo, mas se
+            por algum acaso do destino e nos separamos pode ter certeza que vou me lembrar de todos voces e se meus
+            filhos nao conhcer meu amigos pode ter certeza que vou falar do caua da alice e da yasmim para eles, vou
+            falar que o caua e a yasmim iam ser padrinhos magico deles etc.</p>
+        <img class="costas" src="/img/costas.jpg" alt="">
+
+
+
+
+        <script>
+            let stars = document.getElementById('stars');
+            let moon = document.getElementById('moon');
+            let mountains_behind = document.getElementById('mountains_behind');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let mountains_front = document.getElementById('mountains_front');
+            let header = document.querySelector('header');
+            window.addEventListener('scroll', function () {
+                let value = window.scrollY;
+                stars.style.left = value * 0.25 + 'px';
+                moon.style.top = value * 1.05 + 'px';
+                mountains_behind.style.top = value * 0.5 + 'px';
+                mountains_front.style.top = value * 0 + 'px';
+                text.style.marginRight = value * 4 + 'px';
+                btn.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+</body>
+
+</html>
