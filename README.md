@@ -105,6 +105,11 @@ Idioma:
 
 ### Se liga no jogo da cobrinha fi. 
 ![Snake animation](https://github.com/Patrickcovre/Patrickcovre/blob/output/github-contribution-grid-snake.svg)
+###Terceiro Trimestre
+##Prof.Ana
+
+
+##Prof.Jackson
 
 
 
