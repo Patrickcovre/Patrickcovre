@@ -86,6 +86,8 @@ Idioma:
 [Fixação de funções](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Atividade%20de%20fixação%20Funções)
 
 [Museu](https://github.com/Patrickcovre/Patrickcovre/blob/main/Banco%20de%20Dados/Museu.sql)
+[Cadastro Segundo Trimestre][Cadastro (2).zip](https://github.com/Patrickcovre/Patrickcovre/files/10175484/Cadastro.2.zip)
+
 
 # Modelagem de Sistemas
 
